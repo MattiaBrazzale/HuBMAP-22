@@ -1,5 +1,5 @@
 """
-In this script I collect all the useful functions and classes used during the training of the model.
+This script collects all the useful functions and classes used for the challenge.
 """
 
 
@@ -25,7 +25,7 @@ def seed_everything(seed):
     
 def make_fold(num_fold=5, val_fold=0, df):
     """
-    Function used to seed everything, to make the results reproducible
+    Function used to seed everything, to make the results reproducible.
     
     Args: 
       num_fold: number of folds in which the DataFrame is split
@@ -52,7 +52,7 @@ def make_fold(num_fold=5, val_fold=0, df):
 
 def get_mask(image_id, df):
     """
-    Function used obtain the mask related to the given image
+    Function used obtain the mask related to the given image.
     
     Args: 
       image_id: id of the image of which we want the mask
