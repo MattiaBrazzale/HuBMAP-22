@@ -70,3 +70,9 @@ Possible improvements that I didn't have the time to try are:
 * **Tiling**: instead of training the model on each image, each image is divided in *n* non-overlapping tiles, on which the model is trained. Then, for inference, the mask is predicted on each tile and then is combined into one.
 * **Ensemble**: this is probably what would have improved more my score, since I was able only to test and ensemble of 3 out of 5 of my 5-fold split (ran out of GPU quota...). Moreover ensembling also different models (and even architectures) trained with different approaches, such as: with different image sizes, with tiling and without tiling, etc. would have surely improved the score even more.
 * **External Data**: using external data for the training (such as from previous challenges or online) and pseudo-labeling them.
+
+
+
+
+
+## How to use this code
