@@ -78,3 +78,19 @@ def get_mask(image_id, df):
     return mask
   
   
+
+def rle_encode(img):
+    """ 
+    Function used to save the predicted mask in string format
+    
+    Args:
+        img: numpy array where 1 indicates mask and 0 indicates background
+    
+    Returns: 
+        run length as string formated
+    """
+    pixels = img.T.flatten()
+    pixels = np.concatenate([[0], pixels, [0]])
+    runs = np.where(pixels[1:] != pixels[:-1])[0] + 1
+    runs[1::2] -= runs[::2]
+    return ' '.join(str(x) for x in runs)
