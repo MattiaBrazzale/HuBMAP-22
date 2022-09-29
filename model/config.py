@@ -9,8 +9,8 @@ ENCODER_LEARNING_RATE = 5e-5
 DECODER_LEARNING_RATE = 5e-5
 
 DEVICE = ('cuda' if torch.cuda.is_available() else 'cpu')
-TRAIN_IMG = 'hubmap-organ-segmentation/train_images/'
-TEST_IMG = 'hubmap-organ-segmentation/test_images/'
+TRAIN_PATH = 'hubmap-organ-segmentation/train_images/'
+TEST_PATH = 'hubmap-organ-segmentation/test_images/'
 
-val_fold = 0
-num_fold = 5
+VAL_FOLD = 0
+NUM_FOLD = 5
