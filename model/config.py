@@ -17,3 +17,5 @@ NUM_FOLD = 5
 
 TRAIN = False
 SUBMIT = True
+
+PRETRAINED_PATH = '' #path for the saved weights to use for the submission
