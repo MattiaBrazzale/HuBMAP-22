@@ -14,3 +14,6 @@ TEST_PATH = 'hubmap-organ-segmentation/test_images/'
 
 VAL_FOLD = 0
 NUM_FOLD = 5
+
+TRAIN = False
+SUBMIT = True
