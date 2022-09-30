@@ -59,7 +59,7 @@ To perform the inference on the test set I used a few tricks to boost the perfor
 
 
 ### Placement
-At the end of the challenge I placed: `126 out of 1176 teams`, just out of the medal zone...
+At the end of the challenge I placed: `126 out of 1175 teams`, just out of the medal zone...
 
 Considering that my GPUs quota were heavily limited and the fact that I joined the competition late, I am quite satisfied with this result. 
 
