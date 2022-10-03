@@ -1,5 +1,3 @@
-`Work in progress...`
-
 # HuBMAP-22
 This is my solution for the **HuBMAP + HPA - Hacking the Human Body** challenge that I joined in Kaggle, which can be reached through <a href="https://www.kaggle.com/competitions/hubmap-organ-segmentation" target="_blank">this link</a>. 
 It was sponsored by Google, Genentech and the Indiana University.
@@ -72,4 +70,5 @@ Possible improvements that I didn't have the time to try are:
 * **External Data**: using external data for the training (such as from previous challenges or online) and pseudo-labeling them.
 
 
-
+## Usage
+Everything was done in the Kaggle and Google Colab environment, I therefore provided a Colab Notebook that I used for the training and inference.
