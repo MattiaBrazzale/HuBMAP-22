@@ -1,5 +1,5 @@
 # HuBMAP-22
-This is my solution for the **HuBMAP + HPA - Hacking the Human Body** challenge that I joined in Kaggle, which can be reached through <a href="https://www.kaggle.com/competitions/hubmap-organ-segmentation" target="_blank">this link</a>. 
+This is my solution for the **HuBMAP + HPA - Hacking the Human Body** challenge that I joined on Kaggle, which can be reached through <a href="https://www.kaggle.com/competitions/hubmap-organ-segmentation" target="_blank">this link</a>. 
 It was sponsored by Google, Genentech and the Indiana University.
 
 ### Objective
