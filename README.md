@@ -41,7 +41,7 @@ The model which I used for my final submission, and with which I got the best sc
 These are the main settings that I used during the training of the model:
 * As stated before, the images are resized to the maximum size possible without causing memory issues, i.e. 768x768. Therefore, due to these GPU memory constraints the batch size was set to 1, but the gradient is accumulated for 24 batches before doing an optimization step. 
 * The loss used is a combination of the Jaccard and Dice loss.
-* The metric used to evaluate the performances is the Dice Coefficient, i.e. the metric used to evaluate the challenge leaderboard.
+* The metric used to evaluate the performances is the Dice Coefficient, i.e. the metric used in the challenge leaderboard.
 * The starting learning rate was the same for the encoder and decoder and was scheduled using the OneCycleLR included in the PyTorch module. 
 
 I have used two different approaches for the training of the model:
